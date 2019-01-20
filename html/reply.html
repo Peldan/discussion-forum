@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Forum</title>
+    <link rel="stylesheet" href="style/style.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+        .container {
+            height: 45em;
+            width: 75%;
+        }
+        .main {
+            width: 100%;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+<!--header--><!--header-->
+<div class="container">
+    <!--leftcolumn-->
+    <div class="main">
+        <div class="tableInfoBar">
+            Svara på tråd
+        </div>
+        <p>Svar till diskussion: "<strong><!--topicname--></strong>"</p>
+        <p>I kategori: <!--catname--></p>
+        <form method="post" action="">
+            <fieldset class="newtopic">
+                <legend>Svara</legend>
+                <textarea name="text" placeholder="Svar" rows="20"></textarea>
+                <input type="submit" value="Svara" name="submitbtn">
+            </fieldset>
+        </form>
+    </div>
+    <!--rightcolumn-->
+</div>
+</body>
+</html>
